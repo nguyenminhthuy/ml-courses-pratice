@@ -10,7 +10,7 @@
 
 <h2>Running the Notebook</h2>
 <h4>Active environment:</h4>
-<ul><li>conda activate /ml-courses-pratice/env</li></ul>
+<ul><li>conda activate ./env</li></ul>
 
 <h4>Start the notebook server from the command line, stay at project folder, not env folder</h4>
 <ul><li>jupyter notebook</li></ul>
