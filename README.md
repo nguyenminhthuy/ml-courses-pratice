@@ -29,9 +29,9 @@
 <ul><li>jupyter notebook</li></ul>
 
 <h2>Sharing env with other project</h2>
-<br> mkdir <project_name>
+<br> mkdir project_name
 <br> conda activate ./env (env of the current project that we want to use)
 <br>Back to main project and then:
     conda env export > environment.yml
-<br> cd <new_project>
+<br> cd new_project
 <br> conda env create --prefix ./env -f ../environment.yml -> done
